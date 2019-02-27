@@ -25,7 +25,6 @@ nav{
 .lista li{
   float: left;
   list-style-type: none;
-
   padding-right: 2rem;
   padding-top: 2rem;
   font-weight: 600;
@@ -57,4 +56,44 @@ footer {
 
 footer p {
   padding-left: 1rem;
+}
+
+/*----------------FIN LAYOUT--------------------*/
+/*----------------index.hbs---------------------*/
+.img-div{
+  margin-top: 200px;
+}
+
+.beer_img {
+  width: 280px;
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto; 
+}
+
+.buttons {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: 40px;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: #F7F9F9;
+  font-size: 1.2rem;
+  padding: 15px;
+}
+
+button {
+  margin-bottom: 10px;
+  margin-right: 75px;
+  background-color: #2081C3;
+  height: 40px;
+  border-radius: 5px;
+}
+
+
+.btn-one{
+  margin-bottom: 1rem;
 }
